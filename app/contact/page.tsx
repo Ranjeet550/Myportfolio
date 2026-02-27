@@ -33,10 +33,10 @@ export default function Contact() {
       subtitle: "Drop me a line",
       value: "ry151916@gmail.com",
       link: "mailto:ry151916@gmail.com",
-      color: "from-indigo-500 to-purple-600",
-      bgColor: "bg-gradient-to-br from-indigo-50 to-purple-50",
-      textColor: "text-indigo-600",
-      iconBg: "bg-gradient-to-br from-indigo-500 to-purple-600"
+      color: "from-cyan-500 to-teal-600",
+      bgColor: "bg-gradient-to-br from-cyan-50 to-teal-50",
+      textColor: "text-cyan-600",
+      iconBg: "bg-gradient-to-br from-cyan-500 to-teal-600"
     },
     {
       icon: <Github className="w-6 h-6" />,
@@ -44,10 +44,10 @@ export default function Contact() {
       subtitle: "Check my code",
       value: "github.com/Ranjeet550",
       link: "https://github.com/Ranjeet550",
-      color: "from-gray-600 to-slate-700",
-      bgColor: "bg-gradient-to-br from-gray-50 to-slate-50",
-      textColor: "text-gray-700",
-      iconBg: "bg-gradient-to-br from-gray-600 to-slate-700"
+      color: "from-teal-500 to-emerald-600",
+      bgColor: "bg-gradient-to-br from-teal-50 to-emerald-50",
+      textColor: "text-teal-600",
+      iconBg: "bg-gradient-to-br from-teal-500 to-emerald-600"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -55,10 +55,10 @@ export default function Contact() {
       subtitle: "Based in",
       value: "India",
       link: "#",
-      color: "from-emerald-500 to-teal-600",
-      bgColor: "bg-gradient-to-br from-emerald-50 to-teal-50",
+      color: "from-emerald-500 to-cyan-600",
+      bgColor: "bg-gradient-to-br from-emerald-50 to-cyan-50",
       textColor: "text-emerald-600",
-      iconBg: "bg-gradient-to-br from-emerald-500 to-teal-600"
+      iconBg: "bg-gradient-to-br from-emerald-500 to-cyan-600"
     },
     {
       icon: <Clock className="w-6 h-6" />,
@@ -66,10 +66,10 @@ export default function Contact() {
       subtitle: "Ready to collaborate",
       value: "Open for projects",
       link: "#",
-      color: "from-orange-500 to-pink-600",
-      bgColor: "bg-gradient-to-br from-orange-50 to-pink-50",
-      textColor: "text-orange-600",
-      iconBg: "bg-gradient-to-br from-orange-500 to-pink-600"
+      color: "from-cyan-500 to-teal-600",
+      bgColor: "bg-gradient-to-br from-cyan-50 to-teal-50",
+      textColor: "text-cyan-600",
+      iconBg: "bg-gradient-to-br from-cyan-500 to-teal-600"
     },
   ]
 
@@ -85,29 +85,29 @@ export default function Contact() {
       icon: <Rocket className="w-5 h-5" />, 
       title: "Web Development", 
       desc: "Full-stack applications with modern tech",
-      color: "from-blue-500 to-cyan-500",
-      bgColor: "bg-gradient-to-br from-blue-50 to-cyan-50"
+      color: "from-cyan-500 to-teal-500",
+      bgColor: "bg-gradient-to-br from-cyan-50 to-teal-50"
     },
     { 
       icon: <Target className="w-5 h-5" />, 
       title: "API Development", 
       desc: "Scalable & secure backend solutions",
-      color: "from-emerald-500 to-green-500",
-      bgColor: "bg-gradient-to-br from-emerald-50 to-green-50"
+      color: "from-teal-500 to-emerald-500",
+      bgColor: "bg-gradient-to-br from-teal-50 to-emerald-50"
     },
     { 
       icon: <Sparkles className="w-5 h-5" />, 
       title: "Code Review", 
       desc: "Performance optimization & best practices",
-      color: "from-purple-500 to-pink-500",
-      bgColor: "bg-gradient-to-br from-purple-50 to-pink-50"
+      color: "from-emerald-500 to-cyan-500",
+      bgColor: "bg-gradient-to-br from-emerald-50 to-cyan-50"
     },
     { 
       icon: <Zap className="w-5 h-5" />, 
       title: "Consulting", 
       desc: "Technical guidance & architecture design",
-      color: "from-orange-500 to-red-500",
-      bgColor: "bg-gradient-to-br from-orange-50 to-red-50"
+      color: "from-cyan-500 to-teal-500",
+      bgColor: "bg-gradient-to-br from-cyan-50 to-teal-50"
     },
   ]
 
@@ -149,15 +149,15 @@ export default function Contact() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 relative overflow-hidden">
       {/* Enhanced Background Pattern */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,_rgba(99,102,241,0.05),_transparent_50%),radial-gradient(circle_at_75%_75%,_rgba(168,85,247,0.05),_transparent_50%)]"></div>
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDk5LDEwMiwyNDEsMC4wOCkiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,_rgba(6,182,212,0.05),_transparent_50%),radial-gradient(circle_at_75%_75%,_rgba(20,184,166,0.05),_transparent_50%)]"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDYsMTgyLDIxMiwwLjA4KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')]"></div>
         {/* Floating elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-32 h-32 bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rounded-full blur-xl animate-pulse delay-1000"></div>
-        <div className="absolute bottom-20 left-20 w-24 h-24 bg-gradient-to-br from-emerald-400/20 to-green-400/20 rounded-full blur-xl animate-pulse delay-2000"></div>
+        <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-cyan-400/20 to-teal-400/20 rounded-full blur-xl animate-pulse"></div>
+        <div className="absolute top-40 right-20 w-32 h-32 bg-gradient-to-br from-teal-400/20 to-emerald-400/20 rounded-full blur-xl animate-pulse delay-1000"></div>
+        <div className="absolute bottom-20 left-20 w-24 h-24 bg-gradient-to-br from-emerald-400/20 to-cyan-400/20 rounded-full blur-xl animate-pulse delay-2000"></div>
       </div>
       
       {/* Hero Section */}
@@ -165,7 +165,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto text-center">
           {/* Badge */}
           <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700">
-            <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200/50 text-indigo-700 text-sm font-semibold mb-8 shadow-lg backdrop-blur-sm">
+            <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border border-cyan-400/30 text-cyan-300 text-sm font-semibold mb-8 shadow-lg backdrop-blur-sm">
               <Sparkles className="w-4 h-4 mr-2 animate-pulse" />
               Available for new projects
             </div>
@@ -174,8 +174,8 @@ export default function Contact() {
           {/* Main Title */}
           <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 delay-100">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
-              <span className="text-gray-900">Let's Create</span>
-              <span className="block bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
+              <span className="text-white">Let's Create</span>
+              <span className="block bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 bg-clip-text text-transparent animate-pulse">
                 Something Amazing
               </span>
             </h1>
@@ -183,7 +183,7 @@ export default function Contact() {
 
           {/* Subtitle */}
           <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 delay-200">
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12 font-medium">
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12 font-medium">
               Ready to bring your vision to life? I'm passionate about crafting exceptional digital experiences. 
               Let's collaborate and build something extraordinary together.
             </p>
@@ -194,7 +194,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white shadow-xl hover:shadow-2xl transition-all duration-500 group px-8 py-4 rounded-2xl font-semibold"
+                className="bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-700 hover:to-teal-700 text-white shadow-xl hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 group px-8 py-4 rounded-2xl font-semibold"
                 asChild
               >
                 <a href="mailto:ry151916@gmail.com">
@@ -206,7 +206,7 @@ export default function Contact() {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-2 border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 transition-all duration-300 px-8 py-4 rounded-2xl font-semibold backdrop-blur-sm"
+                className="border-2 border-cyan-400/30 hover:bg-cyan-500/10 hover:border-cyan-400/60 text-slate-300 hover:text-cyan-300 transition-all duration-300 px-8 py-4 rounded-2xl font-semibold backdrop-blur-sm"
                 asChild
               >
                 <a href="#contact-form">
@@ -229,21 +229,21 @@ export default function Contact() {
                 className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 group"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 bg-white/80 backdrop-blur-lg group relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent"></div>
+                <Card className="border-0 shadow-xl hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-500 hover:-translate-y-3 bg-slate-800/50 backdrop-blur-lg group relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent"></div>
                   <CardContent className="p-8 text-center relative z-10">
-                    <div className={`w-18 h-18 mx-auto mb-6 rounded-3xl ${info.iconBg} flex items-center justify-center text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg`}>
+                    <div className={`w-18 h-18 mx-auto mb-6 rounded-3xl ${info.iconBg} flex items-center justify-center text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg shadow-cyan-500/20`}>
                       {info.icon}
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors duration-300">{info.title}</h3>
-                    <p className="text-sm text-gray-500 mb-3 font-medium">{info.subtitle}</p>
-                    <p className="text-gray-700 font-semibold mb-6">{info.value}</p>
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors duration-300">{info.title}</h3>
+                    <p className="text-sm text-slate-400 mb-3 font-medium">{info.subtitle}</p>
+                    <p className="text-slate-300 font-semibold mb-6">{info.value}</p>
                     {info.link !== "#" && (
                       <Button 
                         variant="outline" 
                         size="sm" 
                         asChild
-                        className="border-2 border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 transition-all duration-300 rounded-xl font-medium"
+                        className="border-2 border-cyan-400/30 hover:bg-cyan-500/10 hover:border-cyan-400/60 text-slate-300 hover:text-cyan-300 transition-all duration-300 rounded-xl font-medium"
                       >
                         <a href={info.link} target="_blank" rel="noopener noreferrer">
                           <ArrowRight className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" />
@@ -261,29 +261,29 @@ export default function Contact() {
 
       {/* Main Contact Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8" id="contact-form">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-50/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/50 to-slate-950"></div>
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Contact Form */}
             <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 relative z-10">
-              <Card className="border-0 shadow-2xl bg-white/90 backdrop-blur-xl relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+              <Card className="border-0 shadow-2xl bg-slate-800/80 backdrop-blur-xl relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-teal-500 to-emerald-500"></div>
                 <CardHeader className="pb-8 pt-8">
                   <div className="flex items-center mb-4">
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center mr-4">
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-teal-600 flex items-center justify-center mr-4">
                       <Heart className="w-6 h-6 text-white" />
                     </div>
-                    <CardTitle className="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                    <CardTitle className="text-3xl font-bold bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent">
                       Send me a message
                     </CardTitle>
                   </div>
-                  <p className="text-gray-600 mt-2 text-lg">Let's discuss your project and bring your ideas to life together.</p>
+                  <p className="text-slate-300 mt-2 text-lg">Let's discuss your project and bring your ideas to life together.</p>
                 </CardHeader>
                 <CardContent>
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-3">
+                        <label htmlFor="name" className="block text-sm font-semibold text-slate-300 mb-3">
                           Full Name
                         </label>
                         <Input 
@@ -291,11 +291,11 @@ export default function Contact() {
                           name="name" 
                           required 
                           placeholder="Your full name" 
-                          className="h-14 border-2 border-gray-200 focus:border-indigo-500 focus:ring-indigo-500 rounded-2xl bg-gray-50/50 backdrop-blur-sm hover:bg-white transition-all duration-300 font-medium"
+                          className="h-14 border-2 border-slate-600 focus:border-cyan-500 focus:ring-cyan-500 rounded-2xl bg-slate-700/50 backdrop-blur-sm hover:bg-slate-700 transition-all duration-300 font-medium text-white placeholder:text-slate-500"
                         />
                       </div>
                       <div>
-                        <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-3">
+                        <label htmlFor="email" className="block text-sm font-semibold text-slate-300 mb-3">
                           Email Address
                         </label>
                         <Input
@@ -304,13 +304,13 @@ export default function Contact() {
                           type="email"
                           required
                           placeholder="your@email.com"
-                          className="h-14 border-2 border-gray-200 focus:border-indigo-500 focus:ring-indigo-500 rounded-2xl bg-gray-50/50 backdrop-blur-sm hover:bg-white transition-all duration-300 font-medium"
+                          className="h-14 border-2 border-slate-600 focus:border-cyan-500 focus:ring-cyan-500 rounded-2xl bg-slate-700/50 backdrop-blur-sm hover:bg-slate-700 transition-all duration-300 font-medium text-white placeholder:text-slate-500"
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-3">
+                      <label htmlFor="subject" className="block text-sm font-semibold text-slate-300 mb-3">
                         Subject
                       </label>
                       <Input 
@@ -318,12 +318,12 @@ export default function Contact() {
                         name="subject" 
                         required 
                         placeholder="What's your project about?" 
-                        className="h-14 border-2 border-gray-200 focus:border-indigo-500 focus:ring-indigo-500 rounded-2xl bg-gray-50/50 backdrop-blur-sm hover:bg-white transition-all duration-300 font-medium"
+                        className="h-14 border-2 border-slate-600 focus:border-cyan-500 focus:ring-cyan-500 rounded-2xl bg-slate-700/50 backdrop-blur-sm hover:bg-slate-700 transition-all duration-300 font-medium text-white placeholder:text-slate-500"
                       />
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-3">
+                      <label htmlFor="message" className="block text-sm font-semibold text-slate-300 mb-3">
                         Message
                       </label>
                       <Textarea
@@ -332,13 +332,13 @@ export default function Contact() {
                         required
                         placeholder="Share your vision, project details, timeline, or any questions you have..."
                         rows={6}
-                        className="border-2 border-gray-200 focus:border-indigo-500 focus:ring-indigo-500 rounded-2xl resize-none bg-gray-50/50 backdrop-blur-sm hover:bg-white transition-all duration-300 font-medium"
+                        className="border-2 border-slate-600 focus:border-cyan-500 focus:ring-cyan-500 rounded-2xl resize-none bg-slate-700/50 backdrop-blur-sm hover:bg-slate-700 transition-all duration-300 font-medium text-white placeholder:text-slate-500"
                       />
                     </div>
 
                     <Button
                       type="submit"
-                      className="w-full h-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white font-bold rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 group relative overflow-hidden"
+                      className="w-full h-16 bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 hover:from-cyan-700 hover:via-teal-700 hover:to-emerald-700 text-white font-bold rounded-2xl shadow-xl hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 group relative overflow-hidden"
                       disabled={isSubmitting}
                     >
                       <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -370,22 +370,22 @@ export default function Contact() {
               {/* Introduction */}
               <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 delay-200">
                 <div className="relative">
-                  <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-indigo-400/20 to-purple-400/20 rounded-full blur-xl"></div>
-                  <h3 className="text-3xl font-bold bg-gradient-to-r from-gray-900 via-indigo-800 to-purple-800 bg-clip-text text-transparent mb-6 relative">
+                  <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-cyan-400/20 to-teal-400/20 rounded-full blur-xl"></div>
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-cyan-300 via-teal-300 to-emerald-300 bg-clip-text text-transparent mb-6 relative">
                     Let's Build Something Amazing!
                   </h3>
                 </div>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6 font-medium">
+                <p className="text-lg text-slate-300 leading-relaxed mb-6 font-medium">
                   I'm passionate about transforming ideas into exceptional digital experiences. Whether you're envisioning a cutting-edge web application, need technical expertise, or want to explore innovative solutions, I'm here to bring your vision to life.
                 </p>
-                <p className="text-lg text-gray-600 leading-relaxed">
+                <p className="text-lg text-slate-300 leading-relaxed">
                   I believe in collaborative partnerships, delivering excellence, and creating lasting impact. Let's embark on this exciting journey together!
                 </p>
               </div>
 
               {/* Quick Response Card */}
               <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 delay-300">
-                <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden group hover:scale-105 transition-all duration-500">
+                <div className="bg-gradient-to-br from-cyan-600 via-teal-600 to-emerald-600 rounded-3xl p-8 text-white shadow-2xl shadow-cyan-500/30 relative overflow-hidden group hover:scale-105 transition-all duration-500">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"></div>
                   <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-12 -translate-x-12"></div>
                   <div className="flex items-center mb-6 relative z-10">
@@ -418,7 +418,7 @@ export default function Contact() {
 
               {/* Services Grid */}
               <div className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 delay-400">
-                <h4 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-indigo-800 bg-clip-text text-transparent mb-8">
+                <h4 className="text-2xl font-bold bg-gradient-to-r from-cyan-300 to-teal-300 bg-clip-text text-transparent mb-8">
                   How I Can Help You Succeed
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -430,8 +430,8 @@ export default function Contact() {
                           {service.icon}
                         </div>
                         <div>
-                          <h5 className="font-bold text-gray-900 mb-2 text-lg group-hover:text-indigo-700 transition-colors duration-300">{service.title}</h5>
-                          <p className="text-gray-600 font-medium leading-relaxed">{service.desc}</p>
+                          <h5 className="font-bold text-slate-900 mb-2 text-lg group-hover:text-cyan-700 transition-colors duration-300">{service.title}</h5>
+                          <p className="text-slate-700 font-medium leading-relaxed">{service.desc}</p>
                         </div>
                       </div>
                     </div>
@@ -445,17 +445,17 @@ export default function Contact() {
 
       {/* FAQ Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-50/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 to-slate-950"></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200/50 text-indigo-700 text-sm font-semibold mb-6">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border border-cyan-400/30 text-cyan-300 text-sm font-semibold mb-6 backdrop-blur-sm">
               <Users className="w-4 h-4 mr-2" />
               Common Questions
             </div>
-            <h2 className="text-4xl font-bold bg-gradient-to-r from-gray-900 via-indigo-800 to-purple-800 bg-clip-text text-transparent mb-4">
+            <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-300 via-teal-300 to-emerald-300 bg-clip-text text-transparent mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl text-gray-600 font-medium">Everything you need to know about working together</p>
+            <p className="text-xl text-slate-300 font-medium">Everything you need to know about working together</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -465,12 +465,12 @@ export default function Contact() {
                 className="animate-on-load opacity-0 translate-y-4 transition-all duration-700 group"
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 group relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-indigo-400/10 to-purple-400/10 rounded-full -translate-y-12 translate-x-12"></div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:bg-gradient-to-r group-hover:from-indigo-600 group-hover:to-purple-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300 relative z-10">
+                <div className="bg-slate-800/50 backdrop-blur-lg rounded-3xl p-8 shadow-xl hover:shadow-2xl hover:shadow-cyan-500/20 transition-all duration-500 hover:-translate-y-2 border border-cyan-500/20 group relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-cyan-400/10 to-teal-400/10 rounded-full -translate-y-12 translate-x-12"></div>
+                  <h3 className="text-xl font-bold text-white mb-4 group-hover:bg-gradient-to-r group-hover:from-cyan-300 group-hover:to-teal-300 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300 relative z-10">
                     {faq.question}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed font-medium relative z-10">{faq.answer}</p>
+                  <p className="text-slate-300 leading-relaxed font-medium relative z-10">{faq.answer}</p>
                 </div>
               </div>
             ))}
@@ -480,33 +480,33 @@ export default function Contact() {
 
       {/* Final CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950"></div>
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-12 shadow-2xl border border-white/50 relative overflow-hidden group">
-            <div className="absolute inset-0 bg-gradient-to-br from-indigo-600/5 via-purple-600/5 to-pink-600/5 group-hover:from-indigo-600/10 group-hover:via-purple-600/10 group-hover:to-pink-600/10 transition-all duration-500"></div>
-            <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-indigo-400/20 to-purple-400/20 rounded-full -translate-y-16 -translate-x-16"></div>
-            <div className="absolute bottom-0 right-0 w-40 h-40 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full translate-y-20 translate-x-20"></div>
+          <div className="bg-slate-800/50 backdrop-blur-xl rounded-3xl p-12 shadow-2xl border border-cyan-500/20 relative overflow-hidden group">
+            <div className="absolute inset-0 bg-gradient-to-br from-cyan-600/5 via-teal-600/5 to-emerald-600/5 group-hover:from-cyan-600/10 group-hover:via-teal-600/10 group-hover:to-emerald-600/10 transition-all duration-500"></div>
+            <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-cyan-400/20 to-teal-400/20 rounded-full -translate-y-16 -translate-x-16"></div>
+            <div className="absolute bottom-0 right-0 w-40 h-40 bg-gradient-to-br from-teal-400/20 to-emerald-400/20 rounded-full translate-y-20 translate-x-20"></div>
             
             <div className="relative z-10">
-              <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200/50 text-indigo-700 text-sm font-semibold mb-8">
+              <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border border-cyan-400/30 text-cyan-300 text-sm font-semibold mb-8 backdrop-blur-sm">
                 <Sparkles className="w-4 h-4 mr-2 animate-pulse" />
                 Ready to get started?
               </div>
               
               <h2 className="text-4xl font-bold mb-6">
-                <span className="bg-gradient-to-r from-gray-900 via-indigo-800 to-Purple-800 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-cyan-300 via-teal-300 to-emerald-300 bg-clip-text text-transparent">
                   Let's Turn Your Vision Into Reality
                 </span>
               </h2>
               
-              <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
+              <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
                 Ready to embark on an exciting journey? Whether you have questions or want to dive right in, I'm here to make your project a success.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 group"
+                  className="bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 hover:from-cyan-700 hover:via-teal-700 hover:to-emerald-700 text-white font-bold px-8 py-4 rounded-2xl shadow-xl hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 group"
                   asChild
                 >
                   <a href="#contact-form">
@@ -518,7 +518,7 @@ export default function Contact() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-2 border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 font-semibold px-8 py-4 rounded-2xl transition-all duration-300 backdrop-blur-sm"
+                  className="border-2 border-cyan-400/30 hover:bg-cyan-500/10 hover:border-cyan-400/60 text-slate-300 hover:text-cyan-300 font-semibold px-8 py-4 rounded-2xl transition-all duration-300 backdrop-blur-sm"
                   asChild
                 >
                   <a href="mailto:ry151916@gmail.com">

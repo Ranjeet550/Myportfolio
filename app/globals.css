@@ -318,3 +318,12 @@ html {
 .animate-spin-fast {
   animation: animate-spin-fast 0.5s linear infinite;
 }
+
+/* Animation delay utilities */
+.animation-delay-2000 {
+  animation-delay: 2000ms;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4000ms;
+}
